@@ -1017,7 +1017,10 @@ button:focus {
 /* ==========================================================================
   12. Team Section
    ========================================================================== */
-.single-team:hover .team-details {
+   .col-md-6{
+     padding-bottom: 2%;
+   }
+   .single-team:hover .team-details {
   opacity: 1;
 }
 
