@@ -1272,3 +1272,28 @@ footer {
 .copyright p a:hover {
   color: #61D2B4;
 }
+.btn-modal
+{
+  color:#fff;
+  background-color:#61D2B4;
+  border-color:#61D2B4
+}
+.btn-modal:hover{
+  color:#fff;
+  background-color: #60f3d3;
+  border-color: #389381
+}
+.btn-modal.focus,.btn-modal:focus
+{
+  box-shadow:0 0 0 3px rgba(107, 220, 197, 0.5)
+}
+.btn-modal.disabled,.btn-modal:disabled
+{
+    background-color:#61D2B4;
+    border-color: #389381
+}
+.btn-modal.active,.btn-modal:active,.show>.btn-modal.dropdown-toggle
+{
+    background-color: #52ccaf;background-image:none;
+    border-color: #389381
+}
